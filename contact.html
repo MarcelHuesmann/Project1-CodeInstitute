@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <title>Dublin Mountains Way</title>
+</head>
+<body>
+  <img src="http://placekitten.com/1200/500" alt="header">
+   <nav class="border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="index.html">Dublin Mountains Way</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        <li><a href="trail.html">Trail Description</a> </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>                                           <div class="dropdown">
+  <button class="dropbtn">Stages</button>
+  <div class="dropdown-content">
+    <a class="color1" href="stage1.html">Stage 1 - Shankill - Barnaslingan</a> <br>
+    <a class="color2" href="stage2.html">Stage 2 - Barnaslingan - Fairy Castle</a> <br>
+    <a class="color3" href="stage3.html">Stage 3 - Fairy Castle - Cruagh</a> <br>
+    <a class="color4" href="stage4.html">Stage 4 - Massy's - Hell Fire </a> <br>
+    <a class="color5" href="stage5.html">Stage 5 - Cruagh - Glenasmole</a> <br>
+    <a class="color6" href="stage6.html">Stage 6 - Glenasmole - Tallaght</a> <br>
+  </div></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="paper container">
+<form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>
+    <h4>Any suggestions or Feedback ?</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <div class="row flex-spaces child-borders">
+  <label class="paper-btn margin" for="modal-1">Submit</label>
+</div>
+
+<!-- This contact form was created for training purposes  -->
+<!--
+      <button name="submit" input class="input-block" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+
+-->
+<input class="modal-state" id="modal-1" type="checkbox">
+<div class="modal">
+  <label class="modal-bg" for="modal-1"></label>
+  <div class="modal-body background-success">
+    <label class="btn-close" for="modal-1">X</label>
+    <h4 class="modal-title">Feedback</h4>
+    <p class="modal-text">Thanks very much for your input, i will come back to you asap.</p>
+    <label for="modal-1">Nice!</label>
+  </div>
+</div>
+</div>
+  <footer class="footer">
+    <p>  @2019 Marcel Huesmann, created for Code Institute, all pictures by myself, unless stated otherwise. </p>
+  </footer>
+</body>
+</html>
