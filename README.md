@@ -21,12 +21,11 @@
 
 
 ## Information about Contact Form:
-- The contact form itself was created functionally, but the input element was commented out, it was complimented with a Modal.
+- The contact form itself was created functionally, but the input element was commented out, it was complemented with a Modal.
 
 ### Deployment
 
-- This is a static website, without any Backend. Is has been uploaded to a fileserver and to Github Pages, if a live version would be deplayed
-all what needs to be done is making the contact form functional. 
+- This is a static website, without any Backend. Is has been uploaded to a fileserver and to Github Pages, if a live version would be deployed all what needs to be done is making the contact form functional.
 
 ### Testing
-- The website has been tested for responsiveness and cross-browser compability, it makes use of media querries and has all major acceisbility features.
+- The website has been tested for responsiveness and cross-browser compatibility, it makes use of media queries and has all major accessibility features.
