@@ -47,11 +47,6 @@ dropdown-content a {
   position: relative;
   display: inline-block;
 }
-@media (max-width: 850px) {
-  .dropdown {
-    display: none;
-  }
-}
 
 .dropbtn {
   background-color: #4caf50;
