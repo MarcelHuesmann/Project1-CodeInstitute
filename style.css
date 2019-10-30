@@ -19,11 +19,6 @@ nav {
 .fadein {
   opacity: 0;
 }
-@media (max-width: 850px) {
-  .fadein {
-    display: none;
-  }
-}
 
 a {
   text-decoration: none;
