@@ -55,24 +55,43 @@ dropdown-content a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .color1 {
   background-color: #a1e6c1;
 }
+.color1:hover {
+  color: #ff3d29;
+}
+
 .color2 {
   background-color: #a8f0b5;
+}
+.color2:hover {
+  color: #ff294f;
 }
 .color3 {
   background-color: #a9d9a3;
 }
+
+.color3:hover  {
+color:#FF29B8;
+}
 .color4 {
   background-color: #c9f0a8;
+}
+.color4:hover  {
+color:#EE29FF;
 }
 .color5 {
   background-color: #d9e6a1;
 }
+.color5:hover  {
+color:#B129FF;
+}
 .color6 {
-  background-color: #a1e6b7;
+  background-color: #FF2D29;
+}
+.color6:hover  {
+color:#FF29B8;
 }
 a:hover {
   background-color: white;
