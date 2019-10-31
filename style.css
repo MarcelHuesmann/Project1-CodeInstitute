@@ -92,7 +92,7 @@ a:hover {
 }
 
 @media (min-width: 850px) {
-  .mobile {
+  .dropdown {
     display: none;
   }
 }
