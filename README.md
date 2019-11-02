@@ -21,11 +21,11 @@
 
 
 ## Information about Contact Form:
-- The contact form itself was created functionally, but the input element was commented out, it was complemented with a Modal.
+- The contact form itself was taken from Paper.CSS but the input element was commented out, it was complemented with a Modal.
 
 ### Deployment
 
 - This is a static website, without any Backend. Is has been uploaded to a fileserver and to Github Pages, if a live version would be deployed all what needs to be done is making the contact form functional and replace the placeholder-content ( unsplash-images, placeholder-text ect. ) with the content that would make the Site itself usefull. 
 
 ### Testing
-- The website has been tested for responsiveness and cross-browser compatibility, it makes use of media queries and has all major accessibility features.
+- The website has been extensively tested for responsiveness and cross-browser compatibility, it makes use of media queries and has all major accessibility features.
