@@ -32,7 +32,7 @@
 
 ## Development 
 ### I started the development by structuring the container and the basic elements ( header-image, nav and footer ) and tested it for responsiveness, I would reproduce this basic structure for any subpage.
-## then I decided on the subpages and navigation elements which would be best suited to interconnect the different subpages ( Nav-Bar elements for all sub-pages except the different stages of the hiking way and a complimentary dropdown-menu for desktop devices only for the stages, this content is also reachable through the subpage "Trail description".##
+### then I decided on the subpages and navigation elements which would be best suited to interconnect the different subpages ( Nav-Bar elements for all sub-pages except the different stages of the hiking way and a complimentary dropdown-menu for desktop devices only for the stages, this content is also reachable through the subpage "Trail description".##
 ### The 6 sub-pages for the single stages are all designed with the same structure ( starting with an embedded Map, followed by some images and some engaging alerts and finally one social media post which would complement the content, I did however varied the alignment for example in stage1 the Instagram post takes the whole width of the row while in stage2,5 and 6 only the half, in a website with real content and not placeholders this feature might be useful.##
 
 ## Design
